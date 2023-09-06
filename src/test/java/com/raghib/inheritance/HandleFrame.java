@@ -24,7 +24,4 @@ public class HandleFrame extends BaseClass {
 		closeDriver();
 		
 	}
-	
-	
-
 }

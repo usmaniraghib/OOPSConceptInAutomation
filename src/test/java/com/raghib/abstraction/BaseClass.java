@@ -23,6 +23,7 @@ public class BaseClass {
 			//WAY-2 [THIS WILL WORKING FROM SELENIUM-JAVA VERSION 4.11.0]
 			chromeOptions = new ChromeOptions();
 			chromeOptions.setBrowserVersion("116");
+			chromeOptions.addArguments("--disable-notifications");
 			driver = new ChromeDriver(chromeOptions);
 		}
 		if(browserName.equalsIgnoreCase("edge")) {
@@ -30,8 +31,7 @@ public class BaseClass {
 			edgeOptions.addArguments("--remote-allow-origins=*");
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver(edgeOptions);
-		}
-		
+		}		
 		driver.manage().window().maximize();
 		driver.get(url);
 		return driver;

@@ -47,5 +47,4 @@ public class GoogleSearchTest extends WaitClass {
 		driver.quit();
 		System.out.println("Session Ends!");		
 	}
-
 }

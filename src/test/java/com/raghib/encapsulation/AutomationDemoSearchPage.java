@@ -30,5 +30,4 @@ public class AutomationDemoSearchPage {
 			e.printStackTrace();
 		}		
 	}
-
 }

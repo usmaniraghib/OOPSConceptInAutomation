@@ -1,5 +1,7 @@
 package com.raghib.inheritance;
 
+//TODO - Inheritance Notes
+
 public class Inheritance {
 	
 	/**
@@ -12,5 +14,4 @@ public class Inheritance {
 	 * TO UTILIZE THE BASE CLASS PROPERTIES IN CHILD CLASS.
 	 * 
 	 */
-
 }

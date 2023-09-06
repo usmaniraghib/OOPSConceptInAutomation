@@ -1,5 +1,7 @@
 package com.raghib.abstraction;
 
+//TODO - Abstraction Notes
+
 public class Abstraction {
 	
 	/**
@@ -19,5 +21,4 @@ public class Abstraction {
 	 * 
 	 * Where as WebDriver interface is only having method signatures in them.
 	 */
-
 }

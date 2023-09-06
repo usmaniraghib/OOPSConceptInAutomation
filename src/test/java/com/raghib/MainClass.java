@@ -16,7 +16,6 @@ public class MainClass {
 		
 		GoogleSearchTest gst = new GoogleSearchTest();
 		gst.launch();
-		gst.closeDriver();
-		
+		gst.closeDriver();		
 	}
 }
